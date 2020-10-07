@@ -28,15 +28,17 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" onclick="<?php
-                    include 'backend/funcionSubirArchivo/sube.php';
-                    ?>">Save</button>
-                    
+                    <button name="btnEnviar" id="btnEnviar" type="submit" class="btn btn-primary" 
+                        onclick="<?php if (isset($_POST['btnEnviar'])) {
+                            include 'backend/funcionSubirArchivo/sube.php';
+                    } ?>">
+                        Enviar
+                    </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</form>
+    </form>
 
 
     <!-- Topbar Navbar -->
