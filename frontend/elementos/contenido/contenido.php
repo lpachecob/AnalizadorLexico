@@ -4,7 +4,7 @@
 <div id="content">
 
     <!-- Topbar -->
-    <?php include "elementos/contenido/topbar/topbar.php"; ?>
+    <?php include "frontend/elementos/contenido/topbar/topbar.php"; ?>
     <!-- End of Topbar -->
 
     <!-- Begin Page Content -->
