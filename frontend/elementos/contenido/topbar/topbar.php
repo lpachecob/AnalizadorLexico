@@ -22,7 +22,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="file-loading">
-                            <input name="archivo" multiple type="file"'>
+                            <input name="archivo" multiple type="file">
                     </div>
                     <div id="kartik-file-errors"></div>
                 </div>
