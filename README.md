@@ -1,4 +1,4 @@
-# Analizador Léxico
+# Analizador Léxico v1.0.3
 
 [![N|Solid]( https://brand.heroku.com/static/media/heroku-logotype-horizontal.81c49462.svg)](https://www.heroku.com/home)
 
