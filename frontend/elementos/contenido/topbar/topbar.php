@@ -29,7 +29,8 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button name="btnEnviar" id="btnEnviar" type="submit" class="btn btn-primary" 
-                        onclick="<?php if (isset($_POST['btnEnviar'])) {
+                        onclick="<?php
+                        if (isset($_POST['btnEnviar'])) {
                             include 'backend/funcionSubirArchivo/sube.php';
                     } ?>">
                         Enviar

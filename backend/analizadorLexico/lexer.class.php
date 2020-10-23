@@ -35,10 +35,10 @@ class Lexer{
     );
 
     protected $_delimitadores = ' "'; // Los delimitadores son ESPACIO y COMILLA_DOBLE
-    
+
     function __construct($txt){
         $this->_lineas   = preg_split("/(\r\n|\n|\r)/", trim($txt));
- 
+
         foreach($this->_lineas as $numero => $linea){
             $this->_numero = $numero;
             $this->lexico($linea);
