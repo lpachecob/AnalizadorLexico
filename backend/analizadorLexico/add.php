@@ -20,7 +20,7 @@ if (empty($url['query'])) {
                 include("backend/analizadorLexico/stringtokenizer.class.php");
                 include("backend/analizadorLexico/lexer.class.php");
                 $txt = '';
-                
+
                 $fp = fopen("backend/files/" . $nombre, "r");
                 while (!feof($fp)) $txt .= fgets($fp);
                 fclose($fp);
